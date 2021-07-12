@@ -93,6 +93,9 @@ const (
 	F_SETOWN                         = 0x8
 	F_UNLCK                          = 0x2
 	F_WRLCK                          = 0x1
+	HIDIOCGRAWINFO                   = 0x80084803
+	HIDIOCGRDESC                     = 0x90044802
+	HIDIOCGRDESCSIZE                 = 0x80044801
 	HUPCL                            = 0x400
 	ICANON                           = 0x2
 	IEXTEN                           = 0x8000
@@ -209,6 +212,8 @@ const (
 	PTRACE_POKE_SYSTEM_CALL          = 0x5008
 	PTRACE_PROT                      = 0x15
 	PTRACE_SINGLEBLOCK               = 0xc
+	PTRACE_SYSEMU                    = 0x1f
+	PTRACE_SYSEMU_SINGLESTEP         = 0x20
 	PTRACE_TE_ABORT_RAND             = 0x5011
 	PT_ACR0                          = 0x90
 	PT_ACR1                          = 0x94
@@ -546,6 +551,9 @@ const (
 	WORDSIZE                         = 0x40
 	XCASE                            = 0x4
 	XTABS                            = 0x1800
+	_HIDIOCGRAWNAME                  = 0x80804804
+	_HIDIOCGRAWPHYS                  = 0x80404805
+	_HIDIOCGRAWUNIQ                  = 0x80404808
 )
 
 // Errors
