@@ -11,10 +11,9 @@ require (
 	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/onsi/ginkgo v1.15.0
 	github.com/onsi/gomega v1.10.5
-	github.com/smartystreets/goconvey v1.6.4 // indirect
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
 	golang.org/x/sys v0.0.0-20210220050731-9a76102bfb43 // indirect
-	gopkg.in/ini.v1 v1.50.0
+	gopkg.in/ini.v1 v1.66.5
 )
 
 go 1.13
